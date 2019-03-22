@@ -15,7 +15,7 @@ function checkNumbers() {
             count++;
         }
     }
-    if (count > 5) { //counting if you have all six digits correct
+    if (count === 6) { //counting if you have all six digits correct
         console.log("count is: " + count + "... significant winnnings after: " + (weeksPlayed / 52));
         running = false;
     }
